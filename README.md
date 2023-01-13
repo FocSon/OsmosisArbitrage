@@ -1,5 +1,5 @@
 # OsmosisArbitrage
-A bot which identify and exploit arbitrages on the Osmosis AMM DeFi plateform
+A bot which identify and exploit arbitrages on the Osmosis AMM DeFi plateform in javascript.
 
 # Functionnalities
 This bot is sync to a peer.
