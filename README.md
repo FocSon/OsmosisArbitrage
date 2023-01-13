@@ -35,9 +35,9 @@ I recommend you to create a wallet specially for this bot. Don't use your main a
 In this constant, you can enter the lcd endpoint from which you want to get blockchain informations (new blocks, liquidity...).
 Considerating the large amount of requests sended, endpoints can temporary block your ip. Give more than one endpoint allow to swich between endpoint if this append.
 There are some default endpoint :
-* Polkachu's endpoint : "https://osmosis-api.polkachu.com"
-* Interbloc endpoint (10k free requests per month at time of writing) : "https://api.osmosis.interbloc.org"
-* default osmosis endpoint (slower than others endpoints) : "https://lcd.osmosis.zone"
+  *  Polkachu's endpoint : "https://osmosis-api.polkachu.com"
+  *  Interbloc endpoint (10k free requests per month at time of writing) : "https://api.osmosis.interbloc.org"
+  *  default osmosis endpoint (slower than others endpoints) : "https://lcd.osmosis.zone"
 
 - usefullPools
 This list contains all pools you want to search abritrage on.
