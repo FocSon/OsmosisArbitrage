@@ -65,5 +65,5 @@ If you encounter any problem, don't hesitate to open an issue on the repo.
 
 # Buy me a coffee
 If you like my work, don't hesitate to make a little donation :
-Osmosis     : osmo1ammrmh8s8gqsqhf6fc8mp22vz69cz9f2wl5ju6
-Cosmos Hub  : cosmos1ammrmh8s8gqsqhf6fc8mp22vz69cz9f2xy8z2g
+- Osmosis     : osmo1ammrmh8s8gqsqhf6fc8mp22vz69cz9f2wl5ju6
+- Cosmos Hub  : cosmos1ammrmh8s8gqsqhf6fc8mp22vz69cz9f2xy8z2g
