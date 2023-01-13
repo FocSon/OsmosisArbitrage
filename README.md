@@ -56,9 +56,9 @@ You can find eligible denom in the list of the tokenInfo variable in src/constUt
 - initGlobals
 initGlobal takes the maximum swap route length as parameter.
 For exemple, if it's argument is 3, it will allow the bo to check the route :
-* OSMO/ATOM - ATOM/OSMO
-* OSMO/ATOM - ATOM/SCRT - SCRT/OSMO
-* but not the route OSMO/ATOM - ATOM/SCRT - SCRT/EVMOS - EVMOS/OSMO
+  *  OSMO/ATOM - ATOM/OSMO
+  *  OSMO/ATOM - ATOM/SCRT - SCRT/OSMO
+  *  but not the route OSMO/ATOM - ATOM/SCRT - SCRT/EVMOS - EVMOS/OSMO
 
 # Contact
 If you encounter any problem, don't hesitate to open an issue on the repo.
