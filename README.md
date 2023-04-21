@@ -1,6 +1,14 @@
 # OsmosisArbitrage
 A bot which identify and exploit arbitrages on the Osmosis AMM DeFi plateform in javascript.
 
+# Edit : 1
+
+Since the last update of the osmosis network, they implemented a skip module which exploit most of the arbitrage opportunities. You won't be able to make as much profits as previously with this strategy.
+
+# Edit : 2
+
+I've worked on other arbitrage bot since the publication of this repository so I've take note that the code contained in this repo can be refacored in order to be more modular. I'll work on this when i'll have the time and delete this edit once it's done.
+
 # Functionnalities
 This bot is sync to a peer.
 Once this peer declare a new block on the osmosis blockchain, the bot will search between all eligible swap route those which are profitables.
