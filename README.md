@@ -27,7 +27,7 @@ npm install
 
 Once it's done, you can execute the bot by typing
 ```bash
-node ./src/Main.js
+npm run start
 ```
 
 # Configuration
