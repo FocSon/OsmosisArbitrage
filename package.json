@@ -1,0 +1,12 @@
+{
+  "name": "OsmosisArbitrage-main",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cosmology/core": "^1.23.0",
+    "osmojs": "^15.2.1"
+  },
+  "scripts": {
+    "start": "node src/Main.js"
+  },
+  "type": "module"
+}
