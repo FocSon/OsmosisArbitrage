@@ -50,7 +50,7 @@ There are some default endpoint :
 - usefullPools
 This list contains all pools you want to search abritrage on.
 You can see a list of all pools available here : https://frontier.osmosis.zone/pools
-Keep in mind that the more pool you add, the longest the swap route estimation time will be. If you want to estimate all swap routes, keep this time etween the blocktime (6s at time of writing).
+Keep in mind that the more pool you add, the longest the swap route estimation time will be. If you want to estimate all swap routes, keep this time between the blocktime (6s at time of writing).
 
 - tokenInfos
 This variable contains info about all tokens listed on osmisis. It is mandatory in order to know tokens decimals and other usefull infos.
