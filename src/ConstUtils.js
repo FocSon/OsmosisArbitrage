@@ -27,12 +27,12 @@ export let client;
 
 //all pool > 1000$
 export const usefullPools = [
-    1,2,3,4,5,6,7,8,9,10,13,15,22,42,151,183,197,461,463,464,481,482,497,498,547,548,549,553,555,557,558,560,561,562,565,567,571,572,573,574,577,578,584,585,586,587,592,596,567,600,601,602,604,605,606,608,611,612,613,615,617,618,619,621,625,626,627,629,631,633,634,637,638,640,641,642,643,644,645,648,649,651,653,662,670,673,674,678,681,686,690,693,695,701,704,706,712,713,718,719,722,725,726,729,730,731,732,733,737,738,744,746,747,748,751,756,757,758,759,760,761,762,763,764,769,772,773,774,777,778,786,787,788,790,793,795,796,799,800,803,805,806,807,808,810,812,813,816,817,818,822,824,826,830,832
+  788,995,1009,1010
 ]
 
 //all pools 3*slippage < 1% (3$)
 export const incentivisedMainnetPools = [
-    1,678,704,712,722,803,674,497,9,604,812,498,2,584,611,3,481,585,773,795,10,4,796,42,816,586,608,810,560,587,832,571,817,572,15,463,627,605,641,690,806,601,5,813,577,13,6,553,648,769,7,629,600,597,619,793,602,8,482,606,625,634,738,618,807,778,573,800,574,818,631,777,22,626,681,686,616,645,633,651,637,555,744,621,596,644,790461,197,730,808,558,643,638,826,719,617,547,561,613,464
+  788,995,1009,1010
 ];
 
 export const usefullPoolsTestnet = [
@@ -1679,6 +1679,28 @@ const tokenInfos = {
             },
             "coingecko_id": "weth"
         },
+        {
+      "description": "LumenX community DAO treasury token",
+      "type_asset": "cw20",
+      "address": "juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l",
+      "denom_units": [
+        {
+          "denom": "cw20:juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l",
+          "exponent": 0
+        },
+        {
+          "denom": "ulight",
+          "exponent": 6
+        }
+      ],
+      "base": "cw20:juno1dpany8c0lj526lsa02sldv7shzvnw5dt5ues72rk35hd69rrydxqeraz8l",
+      "name": "Light",
+      "display": "light",
+      "symbol": "LIGHT",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/light/images/light.png"
+      }
+    },
         {
             "description": "Gravity Bridge WBTC",
             "denom_units": [
