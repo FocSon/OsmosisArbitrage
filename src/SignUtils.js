@@ -1,7 +1,7 @@
 import {isRouteProfitable, determineSlippage, routes} from "./PathUtils.js";
 import {getPool} from "./PoolUtils.js";
 import {
-    chainId, getDecimals,
+    chainId, getDecimals, lcdEndPoint,
     senderAddr,
     stargateClient
 } from "./ConstUtils.js";
@@ -16,9 +16,17 @@ const {
 const fee = FEES.osmosis.swapExactAmountIn('low');
 
 export async function checkAllRoutes(denom) {
+    let prevBlock = 0;
+    let block;
+
     while (true) {
-        askProfitable(denom, 3, 6);
-        await new Promise(resolve => setTimeout(resolve, routes[denom].length * 100));
+        block = await getLatestBlock();
+
+        if(prevBlock !== block) {
+            console.log(`new block : ${block}`);
+            askProfitable(denom, 0.1, 6);
+            prevBlock = block;
+        }
     }
 }
 
@@ -117,4 +125,18 @@ function constructRoutesFromPath(path, tokenIn) {
     }
 
     return routes;
+}
+
+async function getLatestBlock() {
+    let res
+
+    while(res === undefined) {
+        try {
+            res = await fetch(lcdEndPoint[0] + "/blocks/latest").then(res => res.json());
+        } catch (e) {
+            console.log("Error during block reception.. Retrying");
+        }
+    }
+
+    return res.block.header.height;
 }
