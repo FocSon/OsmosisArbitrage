@@ -7,7 +7,7 @@ Since the last update of the osmosis network, they implemented a skip module whi
 
 # Edit : 2
 
-I've worked on other arbitrage bot since the publication of this repository so I've take note that the code contained in this repo can be refacored in order to be more modular. I'll work on this when i'll have the time and delete this edit once it's done.
+I've worked on other arbitrage bot since the publication of this repository so I've took note that the code contained in this repo can be refacored in order to be more modular. I'll work on this when i'll have the time and delete this edit once it's done.
 
 # Functionnalities
 This bot is sync to a peer.
