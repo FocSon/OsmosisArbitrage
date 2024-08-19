@@ -9,6 +9,10 @@ Since the last update of the osmosis network, they implemented a skip module whi
 
 I've worked on other arbitrage bot since the publication of this repository so I've took note that the code contained in this repo can be refacored in order to be more modular. I'll work on this when i'll have the time and delete this edit once it's done.
 
+# Edit : 3
+
+Since this bot hasn't been maintained, a lot of network update happened. You'll probably encounter some errors running this bot. If you want to deep in it and update it, don't hasitate to make a PR, I will watch about it but i don't plan to maintain it myself (see Edit 1).
+
 # Functionnalities
 This bot is sync to a peer.
 Once this peer declare a new block on the osmosis blockchain, the bot will search between all eligible swap route those which are profitables.
