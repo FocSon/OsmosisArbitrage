@@ -1,4 +1,4 @@
-# OsmosisArbitrage
+# OsmosisArbitrage - Depreciated
 A bot which identify and exploit arbitrages on the Osmosis AMM DeFi plateform in javascript.
 
 # Edit : 1
